@@ -1,0 +1,8 @@
+nl\hr\EncryptedChat\device\poller\RecieveMessages.class
+nl\hr\EncryptedChat\device\poller\MessageQueue.class
+nl\hr\EncryptedChat\device\consoleChat\MessagePrinterThread.class
+nl\hr\EncryptedChat\device\consoleChat\ConsoleChat.class
+nl\hr\EncryptedChat\device\poller\DeviceConsumer.class
+nl\hr\EncryptedChat\device\publisher\Publisher.class
+nl\hr\EncryptedChat\device\Main.class
+nl\hr\EncryptedChat\device\publisher\Send.class
