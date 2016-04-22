@@ -172,10 +172,12 @@ public class frame extends JPanel implements ActionListener{
             if("".equals(user.getText()) || "".equals(message.getText())){
                 log.append("You must set the to and a message" + newline);
             } else if(!keys.isEmpty()){
-                log.append(name.getText() + message.getText() + newline);
+                
+                log.append(name.getText() +": " + message.getText() + newline);
                 caesarCipher cipher = new caesarCipher();
                 String recip = user.getText();
                 String enMessage = cipher.encrypt(message.getText(), keys);
+                
                 Publisher publisher;
                 try {
                     publisher = new Publisher("188.166.37.53", "admin", "admin");
@@ -183,6 +185,7 @@ public class frame extends JPanel implements ActionListener{
                 } catch (Exception ex) {
                     Logger.getLogger(frame.class.getName()).log(Level.SEVERE, null, ex);
                 }
+                
             } else {
                 log.append("keys are empty" + newline);
             }
@@ -219,10 +222,12 @@ public class frame extends JPanel implements ActionListener{
 		
 	}
     
-    public static void startup(String username) throws Exception{
+    public void startup(String username) throws Exception{
                 Publisher publisher = new Publisher("188.166.37.53", "admin", "admin");
 		RecieveMessages messageRetriever = new RecieveMessages("188.166.37.53", "admin", "admin");
 		MessageQueue<String> queue = new MessageQueue<String>();
+                Thread messagePrinter = new Thread(new MessagePrinterThread(queue));
+                messagePrinter.start();
 		
 		String channel = init(username, publisher, messageRetriever, queue);
 		System.out.println(channel);
