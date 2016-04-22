@@ -1,8 +1,8 @@
-D:\git\FenrirProject\EncryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\publisher\Send.java
-D:\git\FenrirProject\EncryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\consoleChat\ConsoleChat.java
-D:\git\FenrirProject\EncryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\poller\MessageQueue.java
-D:\git\FenrirProject\EncryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\Main.java
-D:\git\FenrirProject\EncryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\poller\DeviceConsumer.java
-D:\git\FenrirProject\EncryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\consoleChat\MessagePrinterThread.java
-D:\git\FenrirProject\EncryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\poller\RecieveMessages.java
-D:\git\FenrirProject\EncryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\publisher\Publisher.java
+C:\Users\cyvan\Documents\GitHub\encryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\consoleChat\ConsoleChat.java
+C:\Users\cyvan\Documents\GitHub\encryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\poller\RecieveMessages.java
+C:\Users\cyvan\Documents\GitHub\encryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\poller\DeviceConsumer.java
+C:\Users\cyvan\Documents\GitHub\encryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\publisher\Send.java
+C:\Users\cyvan\Documents\GitHub\encryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\Main.java
+C:\Users\cyvan\Documents\GitHub\encryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\publisher\Publisher.java
+C:\Users\cyvan\Documents\GitHub\encryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\poller\MessageQueue.java
+C:\Users\cyvan\Documents\GitHub\encryptedChatDevice\src\main\java\nl\hr\EncryptedChat\device\consoleChat\MessagePrinterThread.java
